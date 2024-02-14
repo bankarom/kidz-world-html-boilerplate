@@ -147,3 +147,55 @@ h2 {
 .container {
   flex-wrap: wrap;
 }
+
+
+
+@media only screen and (max-width: 428px) {
+  nav img {
+    height: 30px;
+  }
+
+  header h1 {
+    font-size: 4vh;
+  }
+
+  header h5 {
+    font-size: 16px;
+    margin-top: 8px;
+  }
+
+  .button {
+    padding: 5px;
+  }
+
+  .buy img {
+    width: 12px;
+  }
+
+  .buy {
+    margin-top: 5px;
+    padding-bottom: 20px;
+  }
+
+  footer img {
+    height: 80px;
+    width: 80px;
+  }
+
+  #details {
+    text-align: center;
+  }
+
+  h6 {
+    font-size: 12px;
+  }
+
+  .buy p {
+    font-size: 14px;
+  }
+
+  h3,
+  h2 {
+    margin-bottom: 5px;
+  }
+}
